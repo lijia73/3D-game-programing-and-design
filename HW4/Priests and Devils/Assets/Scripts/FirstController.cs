@@ -18,6 +18,7 @@ public class FirstController : MonoBehaviour, ISceneController, IUserAction {
 
 	UserGUI userGUI;
 	UserGUI []clickGUI=new UserGUI [7];
+	//public bool moving=false;
 
 	private CCActionManager myActionManager;
 	public Judgment judgment;
@@ -193,27 +194,15 @@ public class FirstController : MonoBehaviour, ISceneController, IUserAction {
 		//give advice first
 	}
 	
-/*		// Update is called once per frame
+		// Update is called once per frame
 	void Update () {
-	if (boat.ismoved())
-        {
-			bool flag = true;
-			for(int i = 0; i < 6; i++)
-            {
-				if (!characters[i].ismoved())
-				{
-					flag = false;
-				}
-            }
-            if (flag)
-            {
-				for (int j = 0; j < 7; j++)
-				{
-					clickGUI[j].moving = false;
-				}
-			}
-        }
-		//give advice first
+		/*
+		for (int i = 0; i < 7; i++)
+		{
+			clickGUI[i].moving = moving;
+
+		}
+		*/
 	}
-*/
+
 }

@@ -18,11 +18,16 @@ public class MoveToAction : Action
 
     public override void Update()
     {
+        
         this.transform.position = Vector3.MoveTowards(this.transform.position, target, speed * Time.deltaTime);
         if (this.transform.position == target)
         {
             this.destroy = true;
             this.callback.ActionEvent(this);
+        }
+        else
+        {
+            //this.callback.ActionEvent(this, ActionEventType.Started);
         }
     }
 

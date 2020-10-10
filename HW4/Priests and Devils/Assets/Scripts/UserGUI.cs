@@ -8,6 +8,7 @@ public class UserGUI : MonoBehaviour
     private IUserAction action;
     public int gameState = 0;  //0：游戏中  1：赢  -1：输
     public bool click = true;
+    public bool moving = false;
 
     // Use this for initialization
     void Start()
