@@ -16,3 +16,6 @@ https://blog.csdn.net/weixin_43372552/article/details/109178586
 
 ## 六、物理系统与碰撞
 https://blog.csdn.net/weixin_43372552/article/details/109412882
+
+## 七、模型与动画
+https://blog.csdn.net/weixin_43372552/article/details/109736313
