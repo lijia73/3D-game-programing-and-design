@@ -19,3 +19,6 @@ https://blog.csdn.net/weixin_43372552/article/details/109412882
 
 ## 七、模型与动画
 https://blog.csdn.net/weixin_43372552/article/details/109736313
+
+## 八、粒子系统与流动效果
+https://blog.csdn.net/weixin_43372552/article/details/110004932
